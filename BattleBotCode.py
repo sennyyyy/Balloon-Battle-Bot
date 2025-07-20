@@ -1,8 +1,3 @@
-# Sample code for interfacing with the USB wireless gamepad
-# This is non-blocking
-# It separates button and joystick events (to lower the risk of missing a button event when moving a joystick)
-
-
 # Libraries
 from evdev import InputDevice, categorize
 import RPi.GPIO as GPIO
